@@ -1,3 +1,6 @@
+# Сеть Хопфилда
+
+```mermaid
 graph TD
     A[Начало] --> B[Ввод N,M,образы,Xin,max_iter]
     B --> C[Расчет матрицы весов W]
@@ -11,3 +14,4 @@ graph TD
     J -->|Да| F
     J -->|Нет| K[iter=iter+1, S=S_new]
     K --> E
+```
